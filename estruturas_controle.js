@@ -56,7 +56,7 @@ do {
     console.log(`Opção escolhida foi ${opcao}.`)
 } while (opcao != -1)
 
-// for 
+// for, for in
 
 for(let i = 1; i <= 10; i++) {
     console.log(`i = ${i}`)
@@ -80,4 +80,21 @@ const pessoa = {
 
 for(let atributo in pessoa) {
     console.log(`${atributo} = ${pessoa[atributo]}`)
+}
+
+// break e continue 
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for (x in nums) {
+    if (x == 5) {
+        break
+    }
+    console.log(`${x} = ${nums[x]}`)
+}
+
+for (y in nums) {
+    if (y == 5) {
+        continue
+    }
+    console.log(`${y} = ${nums[y]}`)
 }
