@@ -10,4 +10,4 @@ console.log(i)
 for (let i =0; i<10;i++){
     console.log(i)
 }
-console.log(i) // i não vai estar definido, pois ela só existe dentro do bloco
+console.log(i) // i não vai estar definido, pois ela só existe dentro do bloco  
