@@ -1,0 +1,5 @@
+function salario (horasTrabalhadas, valorHora){
+    return horasTrabalhadas * valorHora
+}
+
+console.log(salario(150, 40.5))
