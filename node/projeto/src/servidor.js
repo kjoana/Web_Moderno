@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 
 app.get('/produtos', (req, res, next) => {
-    res.sebd({nome:"Notebook", preco: 123.45})// converter para JSON
+    res.send({nome:"Notebook", preco: 123.45})// converter para JSON
 })
 
 app.listen(porta, () => {
